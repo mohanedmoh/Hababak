@@ -1,5 +1,5 @@
 # Hababak
-Hababak Is one of the biggest mobile applications that I fully developed using #androidstudio, #laravel for backend and for dashboard I used #vuejs which is one of the best JavaScript Frameworks. Hababak is an application that provides services which facilitate travelling procedures here in Sudan. android, javascript, java, php
+Hababak Is one of the biggest mobile applications that Is fully developed using #androidstudio, #laravel for backend and for dashboard use #vuejs which is one of the best JavaScript Frameworks. Hababak is an application that provides services which facilitate travelling procedures here in Sudan. android, javascript, java, php
 ## Installation
 
 you will need android studio to build it and run it into your phone
