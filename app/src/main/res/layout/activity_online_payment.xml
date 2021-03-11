@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwhite"
+    tools:context=".online_payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/priceAsk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/priceAsk"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.01" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1.05"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/credit_card" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight=".2"
+                android:fontFamily="@font/handlee"
+                android:hint="@string/cardNumberHint"
+                android:inputType="number"
+                android:maxLength="19"
+                android:singleLine="true"
+
+                android:textSize="14sp"
+                app:met_baseColor="@color/primary_text"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1.06"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1.14"
+                android:foregroundGravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/date" />
+            <TextView
+                android:id="@+id/EXMonth"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.13"
+                android:background="@color/editText_background"
+                android:fontFamily="@font/handlee"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:shadowColor="@color/primary_text"
+                android:singleLine="true"
+                android:text="@string/month"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.25"
+                android:src="@drawable/slash"
+                app:srcCompat="@drawable/slash" />
+
+
+            <TextView
+                android:id="@+id/EXYear"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.13"
+                android:background="@color/editText_background"
+                android:fontFamily="@font/handlee"
+                android:gravity="center"
+
+                android:shadowColor="@color/primary_text"
+                android:singleLine="true"
+                android:text="@string/year"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1.05"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:visibility="visible"
+                app:srcCompat="@drawable/pin" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ipin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight=".2"
+                android:fontFamily="@font/handlee"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:hint="@string/ipin"
+
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textSize="14sp"
+                app:met_baseColor="@color/primary_text"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".83">
+
+
+            <Button
+                android:id="@+id/pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1.2"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/handlee"
+                android:foregroundGravity="center"
+                android:text="@string/pay"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

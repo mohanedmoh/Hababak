@@ -1,0 +1,177 @@
+<resources>
+    <!--<string name="url" translatable="false">http://197.254.200.243:4040/hababak/api/server.php</string>-->
+    <string name="payment_url" translatable="false">http://197.254.200.243:8001/api/</string>
+    <string name="lara_url" translatable="false">http://134.209.196.232:8000/api/</string>
+    <string name="label_error_incorrect_phone">Incorrect phone</string>
+    <string name="please_choose_pickup_location">Please select location to pick your luggage</string>
+    <string name="please_choose_drop_location">Please select location to drop your luggage</string>
+    <string name="no_complete_request">No Complete Requests yet !</string>
+    <string name="pick_luggage">Pick my luggage</string>
+    <string name="drop_luggage">Pick my luggage</string>
+
+    <!-- <string name="url" translatable="false">http://hababak.savvy-technology.com/controllers/server.php</string>-->
+    <string name="app_name">Hababak</string>
+    <string name="hababak">HABABAK !</string>
+    <string name="go">GO !</string>
+    <string name="book_from_hababak">Book now from hababak application</string>
+    <string name="request_service">Request your service now from hababak application</string>
+    <string name="status">Status :</string>
+    <string name="app_ver" translatable="false">Version 1.0.0</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="order_placed">ORDER PLACED !</string>
+    <string name="full_name">Full name</string>
+    <string name="you_are_going_on">You are going on </string>
+    <string name="almose_done">You are almost Done !</string>
+    <string name="you_are_selecting">You are selecting </string>
+    <string name="password">Enter your password:</string>
+    <string name="new_user">New Account ?</string>
+    <string name="fill_error">Please fill all fields first !</string>
+    <string name="card_number_error">Wrong card number !</string>
+    <string name="ipin_error">Wrong IPIN !</string>
+    <string name="date_example">YYYY-MM-DD</string>
+    <string name="dateTime_example">YYYY-MM-DD hh:mm</string>
+    <string name="pickImage_error">Please pick image first !</string>
+    <string name="send">Send</string>
+    <string name="insure_dialog">you will be verifying the phone number .</string>
+    <string name="is_this_ok">Is this okay or would you like to edit the number?</string>
+    <string name="verfication_code">Verfication code</string>
+    <string name="enter_verfication">Please type the verification code sent to </string>
+    <string name="req_type">Type</string>
+    <string name="req_status">Status</string>
+    <string name="verify">Verify</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="departure">Departure</string>
+    <string name="arrival">Arrival</string>
+    <string name="sick_travel">Medical Case</string>
+    <string name="services">Services</string>
+    <string name="route">Drop Off</string>
+    <string name="req_process">Trip Manager</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="aboutus">About us</string>
+    <string name="signout">Sign out</string>
+    <string name="traveller_info">Passenger Information</string>
+    <string name="priceAsk">Total amount is :</string>
+    <string name="cardNumberHint">Card Number</string>
+    <string name="ipin">IPIN</string>
+    <string name="order_type">Order Type</string>
+<string name="notification">Notification</string>
+    <string name="choosePaymentM">Please choose your payment method</string>
+    <string name="traveller_name">Passenger Name</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="nationality">Nationality</string>
+    <string name="airline">Airline Name</string>
+    <string name="flight_number">Flight Number</string>
+    <string name="date">Date</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="username_info">Username :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="companion_number">Companion No :</string>
+    <string name="luggage_no">Luggage Number :</string>
+    <string name="medical_details">Medical Details</string>
+    <string name="edit_date">Click to edit flight date</string>
+    <string name="Destination">Destination</string>
+    <string name="sudanese">Sudanese</string>
+    <string name="foreigner">Foreigner</string>
+    <string name="companion_no">Companion </string>
+    <string name="username">Username</string>
+    <string name="edit_email">Click  to edit your email</string>
+    <string name="edit_birthdate">Click here to edit Birthdate</string>
+    <string name="try_later">Please try again later.</string>
+    <string name="cash">Cash Payment</string>
+    <string name="online_bank">Online Payment</string>
+    <string name="classic">Classic</string>
+    <string name="vip">VIP</string>
+    <string name="done">Done </string>
+    <string name="SDG">SDG</string>
+    <string name="req_info">Request Information</string>
+    <string name="upload_passport">Click to attach your passport</string>
+    <string name="upload_visa">Click to attach your visa</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="more_info">More Info</string>
+    <string name="view_status">View status</string>
+    <string name="order_no">Order Number</string>
+    <string name="name">Name</string>
+    <string name="P_No">Passport No</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="airline_info">Airline</string>
+    <string name="flight_date">Flight Date</string>
+    <string name="flight_time">Flight Time</string>
+    <string name="price">Price</string>
+    <string name="package_info">Package</string>
+    <string name="permit">Permit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="resident">Resident</string>
+    <string name="visitor">Visitor</string>
+    <string name="nationalCardQ">Have national service card</string>
+    <string name="profession">Profession</string>
+    <string name="national_service">National Service</string>
+    <string name="exit_visa">Exit Visa</string>
+    <string name="yellow_fever">Yellow Fever Card</string>
+    <string name="status1">Started</string>
+    <string name="status2">Under Process</string>
+    <string name="status3">Finished</string>
+
+    <string name="req1_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req1_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req1_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req2_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req2_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req2_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req3_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req3_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req3_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req4_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req4_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="req4_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+
+    <string name="serv1_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv1_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv1_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv2_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv2_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv2_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv3_status1" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv3_status2" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="serv3_status3" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+
+    <string name="arrival_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="departure_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="medical_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="exit_visa_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="yellow_favor_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="nat_card_msg" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <!--                                  need to be edited
+                          -->
+
+    <string name="priceString">For Only </string>
+    <string name="classic_features" translatable="false">-Lorem ipsum dolor sit amet. \n -Lorem ipsum dolor sit amet. \n -Simul exerci ignota no est. \n -sea in vidit conclusionemque. \n -nam nibh oporteat prodesset ut.</string>
+    <string name="vip_features" translatable="false">-Lorem ipsum dolor sit amet. \n -Lorem ipsum dolor sit amet. \n -Simul exerci ignota no est. \n -sea in vidit conclusionemque. \n -nam nibh oporteat prodesset ut.</string>
+    <string name="please_deliever_arrival" translatable="false">We will be waiting you in the Airport \n wish you comfortable flight .</string>
+    <string name="please_deliever_medical" translatable="false">We will be waiting you in the Airport \n we will do our best so you can have comfortable trip .</string>
+    <string name="please_deliever_departure">Please Deliever Your passports and luggages before \n 3 hours from the flight time. </string>
+    <string name="intro" translatable="false">Lorem ipsum dolor sit amet, suscipit evertitur in usu. Simul exerci ignota no est, sea in vidit conclusionemque, nam nibh oporteat prodesset ut. Nec te. </string>
+    <string name="please_deliever_luggages">"Please deliever your luggages to our offices "</string>
+    <string name="countdown_exmp" translatable="false">00:00:01:00</string>
+    <string name="_9_123_456_78" translatable="false">9 123 456 78</string>
+    <string name="no_req">There is no requests available !</string>
+    <string name="delete_verfication">Delete request with id:</string>
+    <string name="press_back">Click back again to exit</string>
+    <string name="check_internet">Please check your internet connection !</string>
+    <string name="please_enter_number">Hababak will send you SMS verification message, please enter country code and  phone number.</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="emailS">Email</string>
+    <string name="wrong_password">Wrong Password !</string>
+    <string name="diplicate_email">Email has already been used</string>
+    <string name="pay">Pay</string>
+    <string name="submit_status">Submitting Form</string>
+    <string name="upload_image_status">Uploading Images</string>
+</resources>

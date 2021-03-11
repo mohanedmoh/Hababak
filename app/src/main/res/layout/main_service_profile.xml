@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@color/bgwhite"
+                android:visibility="visible"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:paddingBottom="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp"
+                            android:fontFamily="@font/handlee"
+                            android:gravity="center"
+                            android:text="@string/req_info" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/order_noT"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/order_no"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_id"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/dateT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/date"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/typeT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/req_type"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/statusT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/req_status"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_status"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/nameT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/name"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/passportT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/P_No"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/p_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/nationalityT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/nationality"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_nationality"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/bdateT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/birthdate"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_birthdate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/destinationT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/Destination"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_destination"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/fdateT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/flight_date"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_flight_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/ftimeT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/flight_time"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_flight_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/phone"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/priceT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/price"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/luggage_no"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_luggage"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/airlineT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/airline_info"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_airline"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/fnoT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/flight_number"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_flight_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/companionT"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/companion_no"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_companion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+
+                                android:id="@+id/packageT"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/package_info"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_package"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp"
+                            android:visibility="gone">
+
+                            <TextView
+
+                                android:id="@+id/medicalT"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_weight="1.8"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="2dp"
+                                android:paddingTop="5dp"
+                                android:paddingEnd="2dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/medical_details"
+                                android:textColor="@color/primary_text"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/req_medical_details"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:fontFamily="@font/handlee"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="TextView"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/passenger_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:paddingBottom="2dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:fontFamily="@font/handlee"
+                        android:gravity="center"
+                        android:text="@string/traveller_info" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/req_travellers_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

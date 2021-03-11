@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "780754550078",
+    "firebase_url": "https://hababak-fc698.firebaseio.com",
+    "project_id": "hababak-fc698",
+    "storage_bucket": "hababak-fc698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780754550078:android:9d0ba40b1bea4955",
+        "android_client_info": {
+          "package_name": "com.example.mohaned.hababak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780754550078-brphae9oauhjcacgvm6muia5vtdii4mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohaned.hababak",
+            "certificate_hash": "c672008e199bf924f0e46f4b2770e0f97b8e7d2b"
+          }
+        },
+        {
+          "client_id": "780754550078-6regcn0d5mlohv9hbnjo1d76tj6uqpn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohaned.hababak",
+            "certificate_hash": "ac96579648abdab1883988ec185614ab6fd18585"
+          }
+        },
+        {
+          "client_id": "780754550078-hp4lcn1g0b92s4hd4424atscic7jr4md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnPB0SIKeUud27rBdCQ69YtouKJiyASJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780754550078-hp4lcn1g0b92s4hd4424atscic7jr4md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

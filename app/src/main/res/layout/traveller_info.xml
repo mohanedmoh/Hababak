@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:fontFamily="@font/handlee"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:id="@+id/nameT"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/traveller_name"
+                        android:textColor="@color/primary_text"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/traveller_name_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight=".8"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="TextView"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View style="@style/Divider" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:id="@+id/numberT"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/passport_number"
+                        android:textColor="@color/primary_text"
+                        android:textSize="12sp" />
+
+                    <TextView
+
+                        android:id="@+id/traveller_passport_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight=".8"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="TextView"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View style="@style/Divider" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:id="@+id/birthT"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/birthdate"
+                        android:textColor="@color/primary_text"
+                        android:textSize="12sp" />
+
+                    <TextView
+
+                        android:id="@+id/traveller_age_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight=".8"
+                        android:fontFamily="@font/handlee"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="TextView"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
